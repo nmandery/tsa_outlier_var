@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tsa_outlier_var"
+version = "0.1.0"
+description = ""
+authors = ["Nico Mandery <nico@nmandery.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+statsmodels = "^0.13.2"
+pandas = "^1.4.1"
+matplotlib = "^3.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
